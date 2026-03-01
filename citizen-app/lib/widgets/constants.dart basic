@@ -1,0 +1,35 @@
+class ServiceItem {
+  final String id;
+  final String title;
+  final String description;
+  final String? link;
+  bool isFavorite;
+
+  ServiceItem({
+    required this.id,
+    required this.title,
+    required this.description,
+    this.link,
+    this.isFavorite = false,
+  });
+}
+
+class Category {
+  final String name;
+  final List<ServiceItem> items;
+  Category(this.name, this.items);
+}
+
+// Example data – you can expand later
+final civicCategories = [
+  Category('Government Portals', [
+    ServiceItem(
+      id: 'uaeportal',
+      title: 'UAE Government Portal',
+      description: 'Access all UAE government services online.',
+      link: 'https://u.ae/',
+    ),
+  ]),
+];
+
+// Add similar for other pillars...
