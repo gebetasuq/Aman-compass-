@@ -1,0 +1,11 @@
+{
+  "@@locale": "en",
+  "appTitle": "Aman Compass",
+  "disclaimer": "Unofficial tool. Always verify official UAE sources. Emergencies: 999. Not government-affiliated.",
+  "civicTab": "Civic",
+  "smeTab": "SME",
+  "cyberTab": "Cyber",
+  "amanTab": "Aman",
+  "dataTab": "Data",
+  "couldNotOpenLink": "Could not open link"
+}
