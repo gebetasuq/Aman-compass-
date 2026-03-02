@@ -1,0 +1,14 @@
+{
+  "properties": {
+    "accessPolicies": [
+      {
+        "tenantId": "your-tenant-id",
+        "objectId": "your-object-id",
+        "permissions": {
+          "keys": ["get", "list"],
+          "secrets": ["get", "list"]
+        }
+      }
+    ]
+  }
+}
