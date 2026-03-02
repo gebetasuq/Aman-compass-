@@ -1,0 +1,16 @@
+name: Deploy Microservices
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'microservices/**'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and push Docker images
+        run: |
+          # Script to build and push each service
